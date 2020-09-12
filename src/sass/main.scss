@@ -1,0 +1,21 @@
+// SASS 7-in-1 structrur
+// https://itnext.io/structuring-your-sass-projects-c8d41fa55ed4
+
+@import 'abstract/colors';
+@import 'abstract/variables';
+@import 'abstract/mixins';
+
+// Third-party code and external libraries
+//@import 'vendors/bootstrap';
+
+// Basic styles, used on all pages
+@import 'base/all';
+
+// Layout and grid settings
+// @import 'layout/all';
+
+// Individual elements and widgets
+@import 'modules/all';
+
+// Page specific styles
+// @import 'pages/all';
