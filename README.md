@@ -28,6 +28,8 @@ Run NPM scripts from the command line with the following command: `npm run <scri
 
 6. **build:css** : This script do all the task mention above in script section. It compiles sass to css, adds vendor prefixes and then minifies it all.
 
+7. **build:html** : Builds the HTML pages (using Pug HTML preprocessor) from src/pug. Outputs to the public/ folder
+
 ## Documentation
 
 The styleguide documentation is rendered using [Stylemark](https://github.com/mpetrovich/stylemark)
@@ -35,4 +37,4 @@ Stylemark uses [Markdown](https://github.com/mpetrovich/stylemark/blob/main/READ
 
 To generate a new styleguide by running `npm run generate:docs` from the command line.
 
-The generated documation can be found in the **docs** folder in the root of this project
+The generated documation can be found in the **docs/** folder in the root of this project
