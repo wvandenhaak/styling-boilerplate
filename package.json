@@ -12,7 +12,7 @@
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
     "build:html": "pug src/pug --out public --pretty",
     "start": "npm-run-all --parallel liveserver watch:sass",
-    "liveserver": "node scripts/liveserver.js",
+    "liveserver": "node config/liveserver.js",
     "generate:docs": "stylemark -i src/sass -o docs -c config/stylemark.yaml -b"
   },
   "devDependencies": {
