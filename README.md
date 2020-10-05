@@ -10,7 +10,7 @@
 ```
 cd path/to/folder
 npm i 
-npm start
+npm run start
 ```
 
 ## NPM Scripts
@@ -35,6 +35,6 @@ Run NPM scripts from the command line with the following command: `npm run <scri
 The styleguide documentation is rendered using [Stylemark](https://github.com/mpetrovich/stylemark)
 Stylemark uses [Markdown](https://github.com/mpetrovich/stylemark/blob/main/README-SPEC.md) to generate documentation from SASS-files.
 
-To generate a new styleguide by running `npm run generate:docs` from the command line.
+Generate a new styleguide by running `npm run generate:docs` from the command line.
 
 The generated documation can be found in the **docs/** folder in the root of this project
