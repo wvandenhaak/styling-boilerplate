@@ -18,7 +18,7 @@ Run NPM scripts from the command line with the following command: `npm run <scri
 
 1. **start** : This script creates a local development server which reload on every change and compile your all sass file when there is change in sass code
 
-2. **watch:sass** : Same as the *start* command but without an local webserver. Compiles sass to with every change.
+2. **watch:sass** : Same as the `start` command but without an local webserver. Compiles sass to with every change.
 
 3. **compile:sass** : This script simply compile sass code to css only once , this script is useful if you closed your server and have to compile some sass only for once. compiles src/sass/main.scss into public/css/style.comp.css.
 
@@ -28,7 +28,9 @@ Run NPM scripts from the command line with the following command: `npm run <scri
 
 6. **build:css** : This script do all the task mention above in script section. It compiles sass to css, adds vendor prefixes and then minifies it all.
 
-7. **build:html** : Builds the HTML pages (using Pug HTML preprocessor) from src/pug. Outputs to the public/ folder
+7. **watch:pug** : Same as `build:html`. Compiles new HTML which every change
+
+8. **build:html** : Builds the HTML pages (using Pug HTML preprocessor) from src/pug. Outputs to the public/ folder
 
 ## Documentation
 

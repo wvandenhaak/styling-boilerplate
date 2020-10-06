@@ -6,12 +6,13 @@
   "license": "ISC",
   "scripts": {
     "watch:sass": "node-sass src/sass/main.scss public/css/style.css -w",
+    "watch:pug": "pug src/pug --out public --pretty -w",
     "compile:sass": "node-sass src/sass/main.scss public/css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' public/css/style.comp.css -o public/css/style.prefix.css",
     "compress:css": "node-sass public/css/style.prefix.css public/css/style.min.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
     "build:html": "pug src/pug --out public --pretty",
-    "start": "npm-run-all --parallel liveserver watch:sass",
+    "start": "npm-run-all --parallel liveserver watch:sass watch:pug",
     "liveserver": "node config/liveserver.js",
     "generate:docs": "stylemark -i src/sass -o docs -c config/stylemark.yaml -b"
   },
