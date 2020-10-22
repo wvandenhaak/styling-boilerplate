@@ -1,4 +1,4 @@
-name: Boekstra Styleguide
+name: Styleguide
 
 # excludeDir: (optional) Regex pattern (in double quotes) or list of directories to exclude; .git and node_modules are always excluded
 # match: (optional) Regex pattern or list of files to process; by default, common source files are included
